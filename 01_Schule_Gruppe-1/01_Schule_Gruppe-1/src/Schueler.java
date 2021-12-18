@@ -1,12 +1,22 @@
 public class Schueler extends Person {
     // Attribute
-    public String strKlasse;
+    private String strKlasse;
 
     // Konstruktor
     public Schueler() {
         super();
         strKlasse = "ITXX/X";
     }
+
+    // Anfang von Getters/Setters
+    public String getKlasse() {
+        return this.strKlasse;
+    }
+
+    public void setKlasse(String strKlasse) {
+        this.strKlasse = strKlasse;
+    }
+    // Ende von Getters/Setters
 
     // Methoden
     public void druckeAusweis() {

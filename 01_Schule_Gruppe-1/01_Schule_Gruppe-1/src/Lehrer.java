@@ -1,12 +1,22 @@
 public class Lehrer extends Person {
     // Attribute
-    public String strFach;
+    private String strFach;
 
     // Konstruktor
     public Lehrer() {
         super();
         strFach = "Informatik";
     }
+
+    // Anfang von Getters/Setters
+    public String getFach() {
+        return this.strFach;
+    }
+
+    public void setFach(String strFach) {
+        this.strFach = strFach;
+    }
+    // Ende von Getters/Setters
 
     // Methoden
     public void druckeAusweis() {
