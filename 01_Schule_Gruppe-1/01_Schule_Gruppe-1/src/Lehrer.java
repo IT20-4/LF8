@@ -19,12 +19,12 @@ public class Lehrer extends Person {
     // Ende von Getters/Setters
 
     // Methoden
+    public void erfasseDaten(){
+        super.erfasseDaten();
+    }
+
     public void druckeAusweis() {
         super.druckeAusweis();
         System.out.println("Fach:           " + strFach);  
-    }
-
-    public void erfasseDaten(){
-        super.erfasseDaten();
     }
 }

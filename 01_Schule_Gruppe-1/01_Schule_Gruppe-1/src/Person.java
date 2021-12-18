@@ -69,6 +69,8 @@ public class Person {
     // Ende von Getters/Setters
 
     // Methoden
+    public void erfasseDaten() {}
+
     public void druckeAusweis() {
         System.out.println("\n\n--- Ausweis ---");
         System.out.println("Personalnummer: " + iPersonalnummer);
@@ -77,10 +79,6 @@ public class Person {
         System.out.println("Straße:         " + strStrasse);
         System.out.println("Ort:            " + strOrt);
         System.out.println("PLZ:            " + strPLZ);
-    }
-
-    public void erfasseDaten() {
-
     }
 }
 

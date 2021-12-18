@@ -19,12 +19,12 @@ public class Schueler extends Person {
     // Ende von Getters/Setters
 
     // Methoden
+    public void erfasseDaten(){
+        super.erfasseDaten();
+    }
+
     public void druckeAusweis() {
         super.druckeAusweis();
         System.out.println("Klasse:         " + strKlasse);  
-    }
-
-    public void erfasseDaten(){
-        super.erfasseDaten();
     }
 }
