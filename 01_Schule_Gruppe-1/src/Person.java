@@ -7,10 +7,15 @@ public class Person {
     private String strOrt;
     private String strPLZ;
 
+    public static int iAnzahlPersonen = 0;
+
     // Konstruktor
     public Person() {
+        // Zähler iAnzahlPersonen erhöhen
+        iAnzahlPersonen++;
+
         // Standardwerte setzen
-        iPersonalnummer = 0;
+        iPersonalnummer = iAnzahlPersonen;
         strVorname = "Max";
         strName = "Mustermann";
         strStrasse = "Musterstraße 1";

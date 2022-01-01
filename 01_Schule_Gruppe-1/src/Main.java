@@ -6,7 +6,6 @@ public class Main {
         Lehrer oLehrer_1 = new Lehrer();
 
         // Daten festlegen
-        oSchueler_1.setPersonalnummer(1);
         oSchueler_1.setVorname("Daniel");
         oSchueler_1.setName("Baum");
         oSchueler_1.setStrasse("Neustädter Str. 1");
@@ -14,7 +13,6 @@ public class Main {
         oSchueler_1.setPLZ("04315");
         oSchueler_1.setKlasse("IT21/1");
 
-        oSchueler_2.setPersonalnummer(2);
         oSchueler_2.setVorname("Moritz");
         oSchueler_2.setName("Krause");
         oSchueler_2.setStrasse("Neustädter Str. 1");
@@ -22,7 +20,6 @@ public class Main {
         oSchueler_2.setPLZ("04315");
         oSchueler_2.setKlasse("IT21/2");
 
-        oLehrer_1.setPersonalnummer(3);
         oLehrer_1.setVorname("Klaus");
         oLehrer_1.setName("Wannemaker");
         oLehrer_1.setStrasse("An d. Querbreite 8");
